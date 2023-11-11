@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Form for Collecting your data</h2>
+    <form action="">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <div>
+            <label for ="password">Password</label>
+            <input type=" password" id="password" placeholder="Enter your password">
+        </div>
+        <div>
+            <label for ="password2">Confirm your Password</label>
+            <input type=" password" id="password2" placeholder="Enter your password">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter
+            </label>
+        </div>
+        <div>
+            <textarea name="comment" id="comment" cols="50" rows="4" placeholder="Write your comment here."></textarea>
+            <label for="comment"></label>
+        </div>
+        <div>
+            <select name="Course" id="course">
+                <option value="none" selected disabled hidden>Select your option</option>
+                <option value="computer science">Computer Science</option>
+                <option value="mechanical"> Mechanical </option>
+                <option value="civil">Civil</option>
+            </select>
+
+        </div>
+        <div>
+            <input type="submit" >
+            <input type="reset">
+        </div>
+    </form>
+</body>
+
+</html>
